@@ -1,0 +1,80 @@
+/* ===== FUENTES (GOOGLE FONTS) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ===== FONDO ===== */
+.fondo-pagina {
+    background-color: #c6f2b1;
+}
+
+/* ===== IMÁGENES ===== */
+img {
+    height: 450px;
+    width: 350px;
+}
+.fotoalvaro {
+    height: 600px;
+    width: auto;
+}
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+/* ===== MENÚ DE NAVEGACIÓN ===== */
+.menu-secciones {
+    font-size: 30px;
+    font-weight: 500;
+    color: #59633F;
+    font-family: 'Manrope', sans-serif;
+}
+
+/* ===== TÍTULOS ===== */
+h1 {
+    font-size: 70px;
+    font-weight: 600;
+    color:#59633F ;
+    font-family: 'Manrope', sans-serif;
+}
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #C49A4A;
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-size: 43px;
+    font-weight: 450;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== TEXTOS ===== */
+li {
+    font-size: 30px;
+    font-weight: 350;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== GALERÍA ===== */
+    .imagen-instagram {
+    height: 400px;
+    width: 1200px;
+}
+
+/* ===== ENLACES ===== */
+    .enlace-instagram {
+    font-size: 30px;
+    font-weight: 450;
+    color: #333633;
+    font-family: 'Montserrat', sans-serif;
+}
+.enlace-whatsapp {
+    font-size: 30px;
+    font-weight: 450;
+    color: #333633;
+    font-family: 'Montserrat', sans-serif;
+} 
