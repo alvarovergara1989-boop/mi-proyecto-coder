@@ -1,6 +1,12 @@
 /* ===== FUENTES (GOOGLE FONTS) ===== */
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* ===== FONDO ===== */
 .fondo-pagina {
     background-color: #c6f2b1;
@@ -77,4 +83,43 @@ p {
     font-weight: 450;
     color: #333633;
     font-family: 'Montserrat', sans-serif;
-} 
+}
+
+/* ===== NAVBAR (FLEXBOX) ===== */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+/* ===== SECCIONES DE CONTENIDO (FLEXBOX + BOX MODEL) ===== */
+main {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+footer {
+    padding: 20px;
+}
